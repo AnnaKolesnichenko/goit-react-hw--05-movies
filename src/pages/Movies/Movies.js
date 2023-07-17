@@ -1,5 +1,5 @@
 // import MovieDetails from '../movieDetails/MovieDetails';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { useSearchParams, useLocation, Link } from 'react-router-dom';
 import Loader from 'components/Loader/Loader';
 import NonExisting from 'pages/NotExisting/NonExisting';
