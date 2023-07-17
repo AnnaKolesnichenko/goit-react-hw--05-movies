@@ -15,7 +15,7 @@ const Movies = () => {
   const [loading, setLoading] = useState(false);
 
   const location = useLocation();
-  const backLinkRef = useRef(location.state?.from ?? '/');
+  // const backLinkRef = useRef(location.state?.from ?? '/');
 
   const searchQuery = searchParams.get('query');
   console.log(searchQuery);
