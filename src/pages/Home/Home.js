@@ -36,7 +36,9 @@ const Home = () => {
                 src={movie.poster_path === null ? DefaultPoster :`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
                 alt={movie.title}
               />
-              <h3 className={style.movie_title}>{movie.title ? movie.title : <p>Be added soon...</p>}</h3>
+              <h3 className={style.movie_title}>
+                {movie.title ? movie.title : <p>Be added soon...</p>}
+                </h3>
             </Link>
 
         )}

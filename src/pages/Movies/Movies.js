@@ -92,7 +92,10 @@ const Movies = () => {
               alt={movie.title}
               style={{height: 250}}
             />
-            <h2 className={style.movie_title}>{movie.title}</h2>
+            <h2 className={style.movie_title}>
+              {movie.title}
+              {movie.release_date && ` (${movie.release_date.slice(0, 4)})`}
+            </h2>
           </div>
           </Link>
         ) )
