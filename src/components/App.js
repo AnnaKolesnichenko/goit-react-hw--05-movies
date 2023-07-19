@@ -3,8 +3,8 @@ import NonExisting from 'pages/NotExisting/NonExisting';
 import Home from 'pages/Home/Home';
 import Movies from 'pages/Movies/Movies';
 import MovieDetails from 'pages/MovieDetails/MovieDetails';
-import Cast from './Cast/Cast';
 import Reviews from './Reviews/Reviews';
+import Cast from './Сast/Cast';
 import SharedLayout from 'components/SharedLayout/SharedLayout';
 
 import './app.css';
