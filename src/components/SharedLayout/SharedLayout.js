@@ -1,5 +1,5 @@
 import { Link, Outlet } from 'react-router-dom';
-import style from './shared.module.css';
+import style from './Shared.module.css';
 
 const SharedLayout = () => {
   return (

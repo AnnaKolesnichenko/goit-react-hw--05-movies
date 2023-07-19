@@ -3,8 +3,7 @@
 }
 
 .add {
-    display: flex;
-    flex-direction: column;
+
     margin-left: auto;
     margin-right: auto;
 }
@@ -37,35 +36,37 @@
     border: 1px solid rgb(32, 119, 239);
 }
 
-.searched_list {
+.searched_movies {
     display: flex;
+    flex-direction: row;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.item {
+
+/* .item {
     display: flex;
     flex-direction: column;
     height: 50px;
     border-radius: 5px;
     padding-bottom: 10px;
-}
+} */
 
-.movie_item {
+/* .movie_item {
     width: 180px;
     height: 300px;
     text-decoration: none;
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-}
+} */
 
-.movie_title {
+/* .movie_title {
     margin-bottom: 0;
     font-size: 12px;
     text-align: center;
     color: rgb(14, 33, 108);
-}
+} */
 
 
 
